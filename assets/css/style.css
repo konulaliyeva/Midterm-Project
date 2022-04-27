@@ -1215,6 +1215,29 @@ nav {
     margin-top: 30px;
   }
 }
+/* Image gallery layout style */
+.image-gallery {
+  display: flex;
+}
+
+.image-gallery-container {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+.image-gallery-left-container {
+  display: flex;
+}
+.image-gallery-middle-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.image-gallery-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 @media screen and (min-width: 799px) and (max-width: 1282px) {
   .header-section-right-content img {
