@@ -1,0 +1,1280 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+}
+/* Header hissesi */
+.header {
+  padding: 46px 0;
+}
+.mobile-status-bar {
+  display: none;
+}
+.header-section {
+  background-color: #e1f5e3;
+}
+.header-section-content-container {
+  display: flex;
+}
+nav {
+  background-color: #fff;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: baseline;
+}
+.nav-menu-lists {
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+}
+.nav-menu-lists li a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 43px;
+}
+.nav-menu-right-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+}
+.nav-menu-right-logo label {
+  width: 55%;
+}
+.header-section-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-section-left-content {
+  padding: 110px 126px 138px 0px;
+}
+.header-section-left-content h1 {
+  width: 241px;
+}
+.small-prices-lists {
+  padding: 20px 0px 49px 0px;
+}
+.small-prices-lists pattern {
+  color: #595959;
+  text-transform: uppercase;
+}
+.small-prices-icons {
+  display: flex;
+}
+.small-prices-icons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background-color: #56b84e;
+  border-radius: 10px;
+  border: none;
+  margin-right: 18px;
+}
+.small-prices-icons button .apple-icon {
+  margin-right: 15px;
+}
+.btn-content img {
+  transform: translateY(-7px);
+}
+.btn-content p {
+  color: #fff;
+}
+/* Downloading app button  */
+.downloading-btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background-color: #56b84e;
+  border-radius: 10px;
+  border: none;
+  margin-right: 18px;
+}
+.downloading-btns button .apple-icon {
+  margin-right: 15px;
+}
+.downloading-btns .btn-content img {
+  transform: translateY(-7px);
+  padding-bottom: 10px;
+}
+.downloading-btns .btn-content p {
+  color: #fff;
+  transform: translateY(px);
+  padding-top: 15px;
+}
+/* Price olan 
+  section */
+.prices-content {
+  padding: 0px 0px 150px 0px;
+}
+.prices-content-heading {
+  text-align: center;
+  padding: 120px 0px 60px;
+}
+.prices-grid-item {
+  height: 170px;
+  background: #f8f8f8;
+  border-radius: 20px;
+  margin-bottom: 20px; /* asagi ve yuxari gridleri ayirmaq ucun margin mottom istifade etdik amma gap goturmur parent dive verilse de */
+}
+/* .grid-items-column {
+  grid-gap: 50px;
+} */
+
+.grid-item-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 26px 20px 20px;
+  color: #56b84e;
+}
+.grid-item-paragraph {
+  padding: 0 26px 30px 20px;
+}
+
+/* Putting workwers first hissesi */
+.putting-workers-first {
+  background-color: #e1f5e3;
+  height: 405px;
+}
+.putting-workers-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(-50px);
+}
+.putting-workers-right-side {
+  width: 50%;
+  padding: 90px 92px 121px 69px;
+}
+.putting-workers-left-side img {
+  width: 546px;
+  height: 484px;
+}
+.putting-workers-right-side h3 {
+  color: #56b84e;
+}
+.putting-workers-right-side p {
+  color: #4d4d4d;
+  width: 90%;
+  padding-top: 30px;
+}
+
+/* Corners section */
+.corners {
+  padding: 97px 92px 117px 92px;
+}
+.corners h3 {
+  text-align: center;
+  margin-bottom: 67px;
+}
+.corners-grid-items {
+  background: #ffffff;
+  height: 450px;
+  border: 2px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 27px 17px 50px 17px;
+}
+.corners-grid-items h5 {
+  padding: 27px 0px 20px 0px;
+}
+
+/* Downloading app  section*/
+.downloading-app {
+  background: #fbecec;
+  padding: 0px 153px 29px 153px;
+}
+.downloading-app-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-text h2 {
+  display: none;
+}
+.downloading-app-left-side h2 {
+  width: 50%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.downloading-app-right-side h2 {
+  width: 70%;
+  padding-bottom: 20px;
+}
+/* Quotes section */
+
+.quotes-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 120px 92px 120px 0px;
+}
+.quotes-right-side {
+  width: 30%;
+}
+.quotes-green-text {
+  color: #56b84e;
+}
+/* Feedback content */
+.client-feedback {
+  background: url("../images/client-feedback-bcg.png");
+  padding: 60px 0px 35px 0px;
+}
+.client-feedback-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 98px;
+}
+.resposnive-fb-image {
+  display: none;
+}
+.client-feedback-content p {
+  padding: 6px 0px 41px 0px;
+  text-align: center;
+  width: 25%;
+}
+.client-feedback-img-containers {
+  display: flex;
+  align-items: center;
+}
+.ellipse-circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* What we offers hissesi */
+.responsive-offerings {
+  display: none;
+}
+.offerings-content {
+  padding: 120px 92px 120px 92px;
+}
+.offerings-content-heading {
+  text-align: center;
+}
+.offerings-content-heading p {
+  padding: 6px 0px 60px 0px;
+}
+.offerings-grid-table {
+  padding-bottom: 80px;
+}
+.grid-table-item {
+  border: 2px solid #c4c4c4;
+  padding: 13px 18px 14px 43px;
+}
+.grid-cleans {
+  border-radius: 10px 0px 0px 10px;
+}
+.grid-tasks {
+  border-radius: 0px 10px 10px 0px;
+  color: #56b84e;
+  border: 2px solid #56b84e;
+}
+
+/* What we offer hissesinde olan Listlerin gridin style */
+
+.grid-list-of-items li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.grid-list-of-items li img {
+  margin-right: 20px;
+}
+/* Address section style  !Bu sectionda olculer duz deyil */
+.address-content {
+  padding: 50px 30px 70px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 20px;
+}
+
+.address-left-content {
+  /* margin-right: 138px; bunu da vere bilerik amma uygun olchuler duzolmur ona gore de jstfy cntent spac between verdim */
+}
+.address-left-content h3 {
+  padding-bottom: 35px;
+  margin-left: 30px;
+}
+.address-info-list li {
+  list-style: none;
+  padding-bottom: 24px;
+}
+.address-info-list li img {
+  margin-right: 20px;
+}
+
+/* Big Cleans at small Prices sectionun style */
+.small-prices-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0px 119px 0px;
+}
+.small-prices-content h3 {
+  font-size: 36px;
+  color: #56b84e;
+  width: 24%;
+  text-align: center;
+}
+.small-prices-icons .btn-content p {
+  padding-top: 10px;
+}
+.small-prices-icons .btn-content img {
+  padding-bottom: 10px;
+}
+/* Photo layouts style */
+.bunch-of-pictures {
+  width: 100%;
+  padding: 0;
+  margin-left: 110px;
+}
+.list-of-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0 !important;
+  width: 100%;
+}
+
+.list-of-pictures > li {
+  height: 23.3vh;
+}
+
+.list-of-pictures > li:nth-child(2) {
+  width: 16vw;
+  z-index: 10;
+}
+.list-of-pictures > li:nth-child(3) {
+  width: 16.5vw;
+}
+
+.list-of-pictures li img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.list-of-pictures > li:nth-child(8) {
+  width: 67.5vw;
+}
+.list-of-pictures > li:last-child {
+  flex-grow: 10;
+}
+.grid-system-pic6 {
+  width: 36.1vw;
+}
+/* Footer hissesinin style */
+.footer {
+  background: #333333;
+  color: #fff;
+  padding: 65px 92px 50px 92px;
+}
+
+.footer-grid-content {
+  margin-bottom: 92px;
+}
+
+.footer-grid-heading {
+  /* text-align: center; */
+  opacity: 0.4;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+}
+
+.footer-grid-list li {
+  /* text-align: center; */
+  padding-bottom: 15px;
+}
+.footer-copyright {
+  opacity: 0.4;
+}
+.footer-phone-num {
+  font-size: 24px;
+}
+.footer-our-offices {
+  font-size: 13px;
+  opacity: 0.4;
+  text-align: center;
+  font-family: "Roboto";
+}
+.footer-social-icons {
+  text-align: center;
+}
+.footer-social-icons img {
+  padding-top: 30px;
+}
+
+.footer-grid-contact {
+  text-align: center;
+  font-family: "Ubuntu";
+}
+
+/* Responsiv hissesi */
+@media screen and (min-width: 375px) and (max-width: 740px) {
+  .mobile-status-bar {
+    display: inline-block;
+    background: #e6e6e6;
+    width: 100%;
+    height: 23px;
+    transform: translateY(-53px);
+  }
+  .mobile-status-bar p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2.7em;
+    text-align: center;
+
+    color: #666666;
+
+    opacity: 0.3;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-menu-right-logo {
+    order: 0;
+    background: #f8f8f8;
+    border-radius: 10px;
+    margin: 24px 0px 29px 0px;
+    padding: 16px 10px 12px 70px;
+  }
+  .nav-menu-right-logo label {
+    font-size: 9px;
+    width: 100%;
+  }
+  .nav-menu-lists {
+    font-size: 12px;
+    font-weight: 700;
+    order: 1;
+    margin-bottom: 35px;
+  }
+  .nav-menu-right-logo img {
+    border: 1px solid #c4c4c4;
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+  }
+
+  /* fil olan sectionun responsivi */
+  .header-section {
+    background: #f8f8f8;
+    width: 100%;
+    height: 700px;
+  }
+  .header-section-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-section-left-content {
+    order: 1;
+    text-align: center;
+  }
+
+  .header-section-left-content h1 {
+    font-size: 24px;
+    width: 209px;
+    transform: translateX(10px);
+  }
+
+  .header-section-right-content {
+    order: 0;
+  }
+  .header-section-left-content {
+    padding: 20px 15px 40px 15px;
+  }
+  .header-section-right-content img {
+    width: 320px;
+    height: 320px;
+  }
+  .small-prices-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-prices-icons img {
+    margin-bottom: 10px;
+  }
+  /* Offerings olan section */
+
+  .prices-content-heading h2 {
+    width: 50%;
+    transform: translate(100px);
+    padding-top: 0px;
+  }
+  .prices-content-heading p {
+    display: none;
+  }
+  .prices-grid-item {
+    height: 270px;
+    background: #f8f8f8;
+    margin-bottom: 20px;
+  }
+  /* Putting workers frist */
+  .putting-workers-first {
+    height: 500px;
+  }
+  .putting-workers-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .putting-workers-left-side img {
+    width: 278px;
+    height: 282px;
+    transform: translate(20px, -80px);
+  }
+  .putting-workers-right-side {
+    transform: translate(-110px, -120px);
+    /* width: 100%; */
+  }
+  .putting-workers-right-side h3 {
+    font-weight: 700;
+    font-size: 20px;
+    /* width: 170%; */
+    width: 241px;
+    text-align: center;
+  }
+  .putting-workers-right-side p {
+    /* width: 170%; */
+    width: 241px;
+    text-align: center;
+  }
+  /* Corners */
+  .corners-grid-items {
+    margin-bottom: 20px;
+    padding: 27px 20px 30px 20px;
+    height: 330px;
+    width: 330px;
+    transform: translateX(-80px);
+    text-align: center;
+  }
+  /* Downloading app */
+  .downloading-app-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloading-app-content h2 {
+    display: none;
+  }
+  .downloading-app-left-side {
+    order: 2;
+  }
+  .downloading-btns {
+    margin-bottom: 20px;
+  }
+  .btn-content p {
+    padding-top: 15px;
+  }
+  .btn-content img {
+    padding-bottom: 10px;
+  }
+  .downloading-app-right-side {
+    order: 3;
+  }
+
+  .downloading-app-middle {
+    order: 0;
+  }
+  .downloading-app-middle img {
+    width: 184px;
+    height: 250px;
+    transform: translateY(-50%);
+  }
+  .responsive-text h2 {
+    display: block;
+    order: 1;
+    font-weight: 700;
+    font-size: 20px;
+    transform: translateY(-90%);
+  }
+  /* Quotes sectionu */
+  .quotes-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quotes-left-side img {
+    width: 320px;
+    height: 280px;
+    transform: translate(60px, -30px);
+  }
+  .quotes-right-side {
+    width: 100%;
+  }
+  .quotes-right-side img {
+    width: 57px;
+    height: 52px;
+    transform: translate(140px, -50px);
+  }
+  .quotes-right-side p {
+    transform: translateX(40px);
+    text-align: center;
+  }
+  .line-in-right-side-quotes img {
+    height: 4px;
+    transform: translate(140px, 5px);
+  }
+  .quotes-author-name {
+    transform: translate(80px, 30px);
+  }
+  .quotes-author-name p {
+    transform: translateX(-30px);
+    font-weight: 400;
+    font-size: 14px;
+  }
+  /* Clinet feedback */
+  .client-feedback {
+    z-index: 0;
+  }
+  .client-feedback-content h2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .client-feedback-content p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+  }
+  .facebook-post {
+    display: none;
+  }
+  .responsive-fb-image {
+    display: inline;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  .responsive-fb-image img {
+    transform: translate(100px, 100px);
+  }
+  /* Adress sectionu */
+  .address-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .address-left-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+  .address-left-content li {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    transform: translateX(-30px);
+    width: 120%;
+  }
+  .address-right-content img {
+    width: 320px;
+    height: 156px;
+  }
+  /* Big cleans at small prices responsive design */
+
+  .small-prices-content h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 20px;
+    width: 40%;
+  }
+  .small-prices-lists {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    width: 231px;
+    transform: translateX(15px);
+  }
+  .small-prices-icons-responsive {
+    transform: translateX(15px);
+  }
+  .small-prices-icons button {
+    margin-top: 20px;
+  }
+  .small-prices-icons .btn-content p {
+    padding-top: 20px;
+  }
+
+  .bunch-of-pictures {
+    display: none;
+  }
+  /* Responsive footer design */
+  .footer-content {
+    transform: translateX(-80px);
+  }
+  .footer-grid-contact {
+    text-align: left;
+  }
+  .footer-phone-num {
+    width: 172px;
+  }
+  .footer-our-offices {
+    text-align: left;
+  }
+  .footer-icons-heading {
+    width: 213px;
+  }
+  .footer-social-icons {
+    text-align: left;
+  }
+  .footer-copyright {
+    width: 267px;
+    transform: translateX(-50px);
+  }
+  /* Offerings responive design */
+  .responsive-offerings-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .responsive-grid-container {
+    align-items: center;
+  }
+
+  .responsive-offerings-heading span {
+    width: 75px;
+    height: 1px;
+    border: 1px solid #c4c4c4;
+  }
+  .responsive-offerings-heading h4 {
+    margin: 0 20px;
+  }
+  .offerings {
+    display: none;
+  }
+  .responsive-offerings {
+    display: inline-block;
+  }
+  .responsive-offerings-content-heading {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  .responsive-offerings-content-heading p {
+    padding: 6px 0px 60px 0px;
+  }
+  .responsive-offerings-heading h4 {
+    color: #56b84e;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 40px;
+    transform: translateY(20px);
+  }
+  .responsive-grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .responsive-grid-container img {
+    margin-bottom: 25px;
+  }
+  .responsive-grid-container h5 {
+    margin-bottom: 10px;
+  }
+  .responsive-grid-container p {
+    margin-bottom: 40px;
+  }
+  .responsive-offerings-grid-list {
+    margin-top: 30px;
+  }
+}
+/* ******************************************************** */
+/* Ipad version */
+
+/* Responsiv hissesi */
+@media screen and (min-width: 741px) and (max-width: 1181px) {
+  .mobile-status-bar {
+    display: inline-block;
+    background: #e6e6e6;
+    width: 100%;
+    transform: translateY(-53px);
+  }
+  .mobile-status-bar p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2.7em;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+
+    color: #666666;
+
+    opacity: 0.3;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-menu-right-logo {
+    order: 0;
+    background: #f8f8f8;
+    border-radius: 10px;
+    margin: 24px 0px 29px 0px;
+    padding: 16px 10px 12px 70px;
+  }
+  .nav-menu-right-logo label {
+    font-size: 15px;
+    width: 100%;
+  }
+  .nav-menu-lists {
+    font-size: 15px;
+    font-weight: 700;
+    order: 1;
+    margin-bottom: 35px;
+  }
+  .nav-menu-right-logo img {
+    border: 1px solid #c4c4c4;
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+  }
+  .nav-menu-left-logo {
+    width: 200px;
+  }
+
+  /* fil olan sectionun responsivi */
+  .header-section {
+    background: #f8f8f8;
+    width: 100%;
+    height: 700px;
+  }
+  .header-section-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-section-left-content {
+    order: 1;
+    text-align: center;
+  }
+
+  .header-section-left-content h1 {
+    font-size: 24px;
+  }
+
+  .header-section-right-content {
+    order: 0;
+  }
+  .header-section-left-content {
+    padding: 20px 15px 40px 15px;
+  }
+
+  .small-prices-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-prices-icons img {
+    margin-bottom: 10px;
+  }
+  /* Offerings olan section */
+
+  .prices-content-heading h2 {
+    width: 50%;
+    transform: translate(100px);
+    padding-top: 0px;
+  }
+  .prices-content-heading p {
+    display: none;
+  }
+  .prices-grid-item {
+    height: 270px;
+    background: #f8f8f8;
+    margin-bottom: 20px;
+  }
+  /* Putting workers frist */
+  .putting-workers-first {
+    height: 500px;
+  }
+  .putting-workers-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .putting-workers-left-side img {
+    width: 278px;
+    height: 282px;
+    transform: translate(20px, -80px);
+  }
+  .putting-workers-right-side {
+    transform: translate(-30px, -120px);
+  }
+  .putting-workers-right-side h3 {
+    font-weight: 700;
+    font-size: 25px;
+    width: 301px;
+    text-align: center;
+  }
+  .putting-workers-right-side p {
+    width: 301px;
+    text-align: center;
+  }
+  /* Corners */
+  .corners-grid-items {
+    margin-bottom: 20px;
+    padding: 27px 20px 30px 20px;
+    height: 345px;
+    width: 270px;
+    text-align: center;
+  }
+  /* Downloading app */
+  .downloading-app-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloading-app-content h2 {
+    display: none;
+  }
+  .downloading-app-left-side {
+    order: 2;
+  }
+  .downloading-btns {
+    margin-top: 20px;
+  }
+  .btn-content p {
+    padding-top: 15px;
+  }
+  .btn-content img {
+    padding-bottom: 10px;
+  }
+  .downloading-app-right-side {
+    order: 3;
+  }
+
+  .downloading-app-middle {
+    order: 0;
+  }
+  .downloading-app-middle img {
+    width: 184px;
+    height: 250px;
+    transform: translateY(-50%);
+  }
+  .responsive-text h2 {
+    display: block;
+    order: 1;
+    font-weight: 700;
+    font-size: 20px;
+    transform: translateY(-90%);
+  }
+  /* Quotes sectionu */
+  .quotes-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quotes-left-side img {
+    width: 320px;
+    height: 280px;
+    transform: translate(60px, -30px);
+  }
+  .quotes-right-side {
+    width: 100%;
+  }
+  .quotes-right-side img {
+    width: 57px;
+    height: 52px;
+    transform: translate(300px, -50px);
+  }
+  .quotes-right-side p {
+    transform: translateX(40px);
+    text-align: center;
+  }
+  .line-in-right-side-quotes img {
+    height: 4px;
+    transform: translate(320px, 5px);
+  }
+  .quotes-author-name {
+    transform: translate(250px, 30px);
+  }
+  .quotes-author-name p {
+    transform: translateX(-200px);
+    font-weight: 400;
+    font-size: 14px;
+  }
+  /* Clinet feedback */
+  .client-feedback {
+    z-index: 0;
+  }
+  .client-feedback-content h2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .client-feedback-content p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+  }
+  .facebook-post {
+    display: none;
+  }
+  .responsive-fb-image {
+    display: inline;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  .responsive-fb-image img {
+    transform: translate(100px, 100px);
+  }
+  /* Adress sectionu */
+  .address-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .address-left-content {
+  }
+  .address-left-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+  .address-left-content li {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    transform: translateX(-30px);
+    width: 120%;
+  }
+  .address-right-content img {
+    width: 320px;
+    height: 156px;
+  }
+  /* Big cleans at small prices responsive design */
+
+  .small-prices-content h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 20px;
+    width: 40%;
+  }
+  .small-prices-lists {
+    transform: translateX(-70px);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+  }
+  .small-prices-icons-responsive {
+    transform: translateX(15px);
+  }
+  .small-prices-icons button {
+    margin-top: 20px;
+  }
+  .bunch-of-pictures {
+    display: none;
+  }
+  /* Responsive footer design */
+  .footer-content {
+    transform: translateX(-80px);
+  }
+  .footer-grid-content {
+    position: relative;
+    left: 30px;
+  }
+  .footer-grid-contact {
+    text-align: left;
+  }
+  .footer-phone-num {
+    width: 172px;
+  }
+  .footer-our-offices {
+    text-align: left;
+  }
+  .footer-icons-heading {
+    width: 213px;
+  }
+  .footer-social-icons {
+    text-align: left;
+  }
+  .footer-copyright {
+    width: 267px;
+    transform: translateX(-50px);
+  }
+  /* Offerings responive design */
+  .responsive-offerings-content {
+    position: relative;
+    left: 50px;
+  }
+  .responsive-offerings-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .responsive-grid-container {
+    align-items: center;
+  }
+
+  .responsive-offerings-heading span {
+    width: 75px;
+    height: 1px;
+    border: 1px solid #c4c4c4;
+  }
+  .responsive-offerings-heading h4 {
+    margin: 0 20px;
+  }
+  .offerings {
+    display: none;
+  }
+  .responsive-offerings {
+    display: inline-block;
+  }
+  .responsive-offerings-content-heading {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  .responsive-offerings-content-heading p {
+    padding: 6px 0px 60px 0px;
+  }
+  .responsive-offerings-heading h4 {
+    color: #56b84e;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 40px;
+    transform: translateY(20px);
+  }
+  .responsive-grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .responsive-grid-container img {
+    margin-bottom: 25px;
+  }
+  .responsive-grid-container h5 {
+    margin-bottom: 10px;
+  }
+  .responsive-grid-container p {
+    margin-bottom: 40px;
+  }
+  .responsive-offerings-grid-list {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 799px) and (max-width: 1282px) {
+  .header-section-right-content img {
+    width: 480px;
+    height: 357px;
+  }
+  .bunch-of-pictures {
+    display: none;
+  }
+}
+@media screen and (width: 1024px) {
+  .header-section-right-content img {
+    width: 520px;
+    height: 420px;
+  }
+  .bunch-of-pictures {
+    display: none;
+  }
+  .header-section-left-content {
+    order: 1;
+    transform: translate(30px, -10px);
+  }
+
+  .header-section-left-content h1 {
+    font-size: 24px;
+  }
+  .small-prices-lists {
+    width: 50%;
+  }
+  .downloading-btns {
+    padding: 30px 15px;
+  }
+  .downloading-btns p {
+    margin-top: 15px;
+  }
+  .downloading-btns img {
+    margin-bottom: 15px;
+  }
+  .putting-workers-right-side {
+    transform: translate(15px, -80px);
+  }
+  .downloading-app-right-side {
+    transform: translateY(-50px);
+  }
+  .quotes-right-side img {
+    transform: translate(20px, -55px);
+  }
+  .quotes-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .quotes-right-side p {
+    width: 600px;
+  }
+  .line-in-right-side-quotes {
+    transform: translate(15px, 70px);
+  }
+  .quotes-author-name {
+    transform: translate(240px, 50px);
+  }
+}
